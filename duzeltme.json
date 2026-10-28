@@ -1,6 +1,12 @@
 {
   "surum": 1,
   "guncellendi": "2026-10-29",
-  "hicri": {},
-  "gunler": {}
+  "hicri": { "1448-9": "2027-02-09" },
+  "gunler": {},
+  "duyuru": {
+    "id": "kurulum-denemesi",
+    "tr": { "baslik": "Takvim düzeltmeleri açık", "metin": "Dinî gün ve hicri tarih düzeltmeleri artık güncelleme beklemeden ulaşıyor." },
+    "en": { "baslik": "Calendar corrections are on", "metin": "Religious day and Hijri date corrections now arrive without an app update." },
+    "ar": { "baslik": "تصحيحات التقويم مفعّلة", "metin": "تصل تصحيحات الأيام الدينية والتواريخ الهجرية الآن دون تحديث التطبيق." }
+  }
 }
