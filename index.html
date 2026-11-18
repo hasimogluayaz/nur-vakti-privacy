@@ -50,9 +50,9 @@ footer { padding:24px 20px 46px; color:#8A968F; font-size:13px; }
 <h3>Toplanan veriler</h3>
 <p>Nur Vakti sizden ad, e-posta, telefon numarası gibi hiçbir kişisel bilgi istemez. Reklam kimliği kullanmaz, analiz veya izleme araçları barındırmaz.</p>
 <h3>Konum bilgisi</h3>
-<p>Konumunuz yalnızca namaz vakitlerini ve kıble yönünü hesaplamak için kullanılır. Hesaplama tamamen telefonunuzun içinde yapılır; koordinatlarınız bize veya üçüncü bir tarafa iletilmez. Yalnızca seçtiğiniz şehir bilgisi, tekrar sormamak için cihazınıza kaydedilir. Konum iznini vermek zorunda değilsiniz; şehri listeden elle de seçebilirsiniz.</p>
+<p>Konumunuz namaz vakitlerini ve kıble yönünü hesaplamak için kullanılır. Bu hesap tamamen telefonunuzun içinde yapılır; bize hiçbir veri gelmez. Şehir adını bulmak için telefonunuzun kendi konum adı hizmeti kullanılır (çoğu telefonda Google sağlar). Hava durumu açıksa konum yaklaşık 1 km'ye yuvarlanarak gönderilir (aşağıya bakın). Seçtiğiniz şehir, tekrar sormamak için cihazınıza kaydedilir. Konum iznini vermek zorunda değilsiniz; şehri listeden elle de seçebilirsiniz.</p>
 <h3>İnternet kullanılan yerler</h3>
-<p>Uygulamanın çekirdek işlevleri (vakitler, kıble, zikir, dualar, namaz sûreleri) internetsiz çalışır. İnternet yalnızca şu altı yerde kullanılır:<br><br>• Kur'an-ı Kerîm: bir sûreyi ilk açtığınızda Arapça metin ve meal api.alquran.cloud sunucusundan indirilir ve telefonunuza kaydedilir; sonraki okumalar internetsiz yapılır. Arapça arayüzde bir âyetin tefsiri ilk açıldığında o sûrenin Celâleyn tefsiri de aynı şekilde cdn.jsdelivr.net üzerinden indirilir.<br>• Kur'an Radyo: yayınlar mp3quran.net ve qurango.net sunucularından çalınır.<br>• Yakın Camiler: cihazınızdaki harita uygulaması açılır; arama orada yapılır.<br>• Haftanın Hutbesi: Diyanet İşleri Başkanlığı'nın sayfası tarayıcınızda açılır.<br>• Takvim düzeltmeleri: dinî günler ve hicri tarihler resmî takvimle değişirse uygulamayı güncellemeden düzeltebilmek için haftada bir kendi sunucumuzdaki küçük bir dosya indirilir. Hiçbir bilgi gönderilmez; Ayarlar'dan kapatabilirsiniz.<br>• Hava durumu: ana ekrandaki tahmin için konumunuz yaklaşık 1 km'ye yuvarlanarak MET Norway'in (Norveç Meteoroloji Enstitüsü) api.met.no sunucusuna gönderilir. Ayarlar'dan kapatabilirsiniz; kapalıyken hiçbir istek yapılmaz.<br><br>Bu adreslere bağlanıldığında, her internet isteğinde olduğu gibi IP adresiniz ilgili sunucu tarafından görülür. Nur Vakti bu sunuculara sizinle ilgili başka hiçbir bilgi göndermez.</p>
+<p>Uygulamanın çekirdek işlevleri (vakitler, kıble, zikir, dualar, namaz sûreleri) internetsiz çalışır. İnternet yalnızca şu altı yerde kullanılır:<br><br>• Kur'an-ı Kerîm: Arapça metin uygulamayla birlikte gelir, okumak için internet gerekmez. Meal ve Latin harfli okunuş bir sûreyi ilk açtığınızda api.alquran.cloud sunucusundan indirilir ve telefonunuza kaydedilir; sonraki okumalar internetsiz yapılır. Arapça arayüzde bir âyetin tefsiri ilk açıldığında o sûrenin Celâleyn tefsiri de aynı şekilde cdn.jsdelivr.net üzerinden indirilir.<br>• Kur'an Radyo: yayınlar mp3quran.net ve qurango.net sunucularından çalınır.<br>• Yakın Camiler: cihazınızdaki harita uygulaması açılır; arama orada yapılır.<br>• Haftanın Hutbesi: Diyanet İşleri Başkanlığı'nın sayfası tarayıcınızda açılır.<br>• Takvim düzeltmeleri: dinî günler ve hicri tarihler resmî takvimle değişirse uygulamayı güncellemeden düzeltebilmek için haftada bir kendi sunucumuzdaki küçük bir dosya indirilir. Hiçbir bilgi gönderilmez; Ayarlar'dan kapatabilirsiniz.<br>• Hava durumu: ana ekrandaki tahmin için konumunuz yaklaşık 1 km'ye yuvarlanarak MET Norway'in (Norveç Meteoroloji Enstitüsü) api.met.no sunucusuna gönderilir. Ayarlar'dan kapatabilirsiniz; kapalıyken hiçbir istek yapılmaz.<br><br>Bu adreslere bağlanıldığında, her internet isteğinde olduğu gibi IP adresiniz ilgili sunucu tarafından görülür. Nur Vakti bu sunuculara sizinle ilgili başka hiçbir bilgi göndermez.</p>
 <h3>Bildirimler ve widget</h3>
 <p>Ezan ve vakit bildirimleri ile ana ekran widget'ı telefonunuzda hazırlanır; bunun için sunucu kullanılmaz. Bu yüzden uçak modunda ve internetsizken de çalışırlar.</p>
 <h3>Akıllı saat</h3>
@@ -83,14 +83,14 @@ footer { padding:24px 20px 46px; color:#8A968F; font-size:13px; }
 <h3>Dinî içerik</h3>
 <p>Dualar, hadisler ve diğer metinler yaygın kaynaklardan derlenmiştir ve bilgilendirme amaçlıdır. Dinî hüküm gerektiren konularda yetkili mercilere danışınız. Fark ettiğiniz hataları bize bildirirseniz düzeltiriz.</p>
 <h3>Namazdayım modu</h3>
-<p>Bu mod telefonunuzu geçici olarak Rahatsız Etmeyin durumuna alır; bu sırada alarmlar ve gelen çağrılar da susturulur. Acil bir çağrı bekliyorsanız bu modu kullanmayınız. Doğabilecek kaçırılmış çağrılardan uygulama sorumlu tutulamaz.</p>
+<p>Bu mod namaz süresince telefonunuzu titreşime alır; bunun için izin istenmez. "Titreşim de olmasın" seçeneğini açarsanız izninizle Rahatsız Etmeyin kullanılır; bu sırada alarmlar ve gelen çağrılar da susturulabilir. Acil bir çağrı bekliyorsanız bu modu kullanmayınız. Doğabilecek kaçırılmış çağrılardan uygulama sorumlu tutulamaz.</p>
 <h3>Üçüncü taraf hizmetler</h3>
-<p>Kur'an metni ve mealleri alquran.cloud, Kur'an Radyo yayınları mp3quran.net ve qurango.net üzerinden gelir; Yakın Camiler cihazınızdaki harita uygulamasını, Haftanın Hutbesi ise Diyanet'in web sayfasını açar. Bu hizmetlerin içeriği ve sürekliliği kendi sağlayıcılarının sorumluluğundadır.</p>
+<p>Kur'an mealleri alquran.cloud, Kur'an Radyo yayınları mp3quran.net, qurango.net ve radiojar.com üzerinden gelir; Yakın Camiler cihazınızdaki harita uygulamasını, Haftanın Hutbesi ise Diyanet'in web sayfasını açar. Bu hizmetlerin içeriği ve sürekliliği kendi sağlayıcılarının sorumluluğundadır.</p>
 <h3>Sorumluluk sınırı</h3>
 <p>Uygulama "olduğu gibi" sunulur. Kullanımından doğabilecek dolaylı zararlardan geliştirici sorumlu tutulamaz.</p>
 <h3>Değişiklikler</h3>
 <p>Koşullar güncellenebilir; güncel metin her zaman uygulamanın içinde bulunur.</p>
-<p class="updated">Son güncelleme: 31 Ekim 2026 · v1.3.0</p>
+<p class="updated">Son güncelleme: 17 Kasım 2026 · v1.4.0</p>
 </section>
 <section class="lang" id="lang-en">
 <h2>Privacy Policy</h2>
@@ -99,9 +99,9 @@ footer { padding:24px 20px 46px; color:#8A968F; font-size:13px; }
 <h3>Data we collect</h3>
 <p>Nur Vakti never asks for personal information such as your name, email or phone number. It uses no advertising ID and contains no analytics or tracking tools.</p>
 <h3>Location</h3>
-<p>Your location is used only to calculate prayer times and the Qibla direction. The calculation happens entirely on your phone; your coordinates are never sent to us or to any third party. Only the city you select is saved on your device so we don't have to ask again. Granting location access is optional; you can also pick your city from the list.</p>
+<p>Your location is used to calculate prayer times and the Qibla direction. This calculation happens entirely on your phone; no data is sent to us. To find your city's name, your phone's own location-name service is used (provided by Google on most phones). If weather is on, your location is sent rounded to about 1 km (see below). The city you select is saved on your device so we don't have to ask again. Granting location access is optional; you can also pick your city from the list.</p>
 <h3>Where the internet is used</h3>
-<p>The core features (prayer times, Qibla, dhikr, supplications, prayer surahs) work offline. The internet is used in only six places:<br><br>• The Holy Qur'an: the first time you open a surah, the Arabic text and translation are downloaded from api.alquran.cloud and saved on your phone; after that it works offline. In the Arabic interface, the first time you open the tafsir of a verse, the Jalalayn tafsir of that surah is downloaded the same way from cdn.jsdelivr.net.<br>• Qur'an Radio: streams are played from the mp3quran.net and qurango.net servers.<br>• Nearby mosques: your device's map app opens and the search happens there.<br>• Friday sermon: the page of Turkey's Presidency of Religious Affairs (Diyanet) opens in your browser.<br>• Calendar corrections: so that changes to religious days and Hijri dates can be fixed without an app update, a small file is downloaded from our own server once a week. Nothing is sent; you can turn it off in Settings.<br>• Weather: for the forecast on the home screen, your location, rounded to about 1 km, is sent to MET Norway's (Norwegian Meteorological Institute) api.met.no server. You can turn it off in Settings; when it is off, no request is made.<br><br>As with any internet request, your IP address is visible to the server you connect to. Nur Vakti sends no other information about you to these servers.</p>
+<p>The core features (prayer times, Qibla, dhikr, supplications, prayer surahs) work offline. The internet is used in only six places:<br><br>• The Holy Qur'an: the Arabic text is built into the app and needs no internet. The translation and transliteration of a surah are downloaded from api.alquran.cloud the first time you open it and saved on your phone; after that they work offline. In the Arabic interface, the first time you open the tafsir of a verse, the Jalalayn tafsir of that surah is downloaded the same way from cdn.jsdelivr.net.<br>• Qur'an Radio: streams are played from the mp3quran.net and qurango.net servers.<br>• Nearby mosques: your device's map app opens and the search happens there.<br>• Friday sermon: the page of Turkey's Presidency of Religious Affairs (Diyanet) opens in your browser.<br>• Calendar corrections: so that changes to religious days and Hijri dates can be fixed without an app update, a small file is downloaded from our own server once a week. Nothing is sent; you can turn it off in Settings.<br>• Weather: for the forecast on the home screen, your location, rounded to about 1 km, is sent to MET Norway's (Norwegian Meteorological Institute) api.met.no server. You can turn it off in Settings; when it is off, no request is made.<br><br>As with any internet request, your IP address is visible to the server you connect to. Nur Vakti sends no other information about you to these servers.</p>
 <h3>Notifications and widget</h3>
 <p>Adhan and prayer time notifications and the home screen widget are prepared on your phone without any server, so they keep working in airplane mode and offline.</p>
 <h3>Smartwatch</h3>
@@ -132,14 +132,14 @@ footer { padding:24px 20px 46px; color:#8A968F; font-size:13px; }
 <h3>Religious content</h3>
 <p>Supplications, hadith and other texts are compiled from widely used sources and are provided for information. For matters that require a religious ruling, please consult a qualified authority. If you spot a mistake, let us know and we will correct it.</p>
 <h3>Prayer mode</h3>
-<p>This mode temporarily puts your phone into Do Not Disturb, which also silences alarms and incoming calls. Do not use it if you are expecting an urgent call. The app cannot be held responsible for any missed calls.</p>
+<p>This mode switches your phone to vibrate while you pray; no permission is needed for this. If you turn on "No vibration either", Do Not Disturb is used with your permission, which can also silence alarms and incoming calls. Do not use it if you are expecting an urgent call. The app cannot be held responsible for any missed calls.</p>
 <h3>Third-party services</h3>
-<p>The Qur'an text and translations come from alquran.cloud, and Qur'an Radio streams from mp3quran.net and qurango.net. Nearby mosques opens your device's map app and Friday sermon opens Diyanet's website. The content and availability of these services are the responsibility of their providers.</p>
+<p>Qur'an translations come from alquran.cloud, and Qur'an Radio streams from mp3quran.net, qurango.net and radiojar.com. Nearby mosques opens your device's map app and Friday sermon opens Diyanet's website. The content and availability of these services are the responsibility of their providers.</p>
 <h3>Limitation of liability</h3>
 <p>The app is provided "as is". The developer cannot be held liable for any indirect damage arising from its use.</p>
 <h3>Changes</h3>
 <p>These terms may be updated; the current text is always available inside the app.</p>
-<p class="updated">Last updated: 31 October 2026 · v1.3.0</p>
+<p class="updated">Last updated: 17 November 2026 · v1.4.0</p>
 </section>
 <section class="lang" id="lang-ar" dir="rtl">
 <h2>سياسة الخصوصية</h2>
@@ -148,9 +148,9 @@ footer { padding:24px 20px 46px; color:#8A968F; font-size:13px; }
 <h3>البيانات التي نجمعها</h3>
 <p>لا يطلب نور الوقت أي معلومات شخصية مثل الاسم أو البريد الإلكتروني أو رقم الهاتف، ولا يستخدم معرّف الإعلانات، ولا يحتوي على أدوات تحليل أو تتبّع.</p>
 <h3>الموقع</h3>
-<p>يُستخدم موقعك لحساب مواقيت الصلاة واتجاه القبلة فقط. يجري الحساب بالكامل داخل هاتفك، ولا تُرسل إحداثياتك إلينا أو إلى أي طرف ثالث. تُحفظ على جهازك المدينة التي اخترتها فقط حتى لا نسألك مجددًا. منح إذن الموقع اختياري، ويمكنك اختيار مدينتك من القائمة.</p>
+<p>يُستخدم موقعك لحساب مواقيت الصلاة واتجاه القبلة. يجري هذا الحساب بالكامل داخل هاتفك، ولا تصلنا أي بيانات. لمعرفة اسم مدينتك تُستخدم خدمة أسماء المواقع في هاتفك (توفرها غوغل في معظم الهواتف). وإذا كانت حالة الطقس مفعّلة يُرسل موقعك مقرّبًا إلى نحو كيلومتر واحد (انظر أدناه). تُحفظ على جهازك المدينة التي اخترتها حتى لا نسألك مجددًا. منح إذن الموقع اختياري، ويمكنك اختيار مدينتك من القائمة.</p>
 <h3>متى يُستخدم الإنترنت</h3>
-<p>تعمل الميزات الأساسية (المواقيت، القبلة، الذكر، الأدعية، سور الصلاة) دون إنترنت. ولا يُستخدم الإنترنت إلا في ستة مواضع:<br><br>• القرآن الكريم: عند فتح السورة أول مرة يُنزَّل النص العربي والترجمة من api.alquran.cloud ويُحفظان على هاتفك، ثم تعمل القراءة دون إنترنت. وعند فتح تفسير آية أول مرة يُنزَّل تفسير الجلالين للسورة بالطريقة نفسها من cdn.jsdelivr.net.<br>• إذاعة القرآن: يُشغَّل البث من خوادم mp3quran.net وqurango.net.<br>• المساجد القريبة: يُفتح تطبيق الخرائط في جهازك ويجري البحث فيه.<br>• خطبة الجمعة: تُفتح صفحة رئاسة الشؤون الدينية التركية في المتصفح.<br>• تصحيحات التقويم: لتصحيح الأيام الدينية والتواريخ الهجرية دون تحديث التطبيق، يُنزَّل ملف صغير من خادمنا مرة كل أسبوع. ولا يُرسَل أي شيء، ويمكنك إيقافه من الإعدادات.<br>• حالة الطقس: لعرض التوقعات في الشاشة الرئيسية يُرسَل موقعك مقرَّبًا إلى نحو كيلومتر واحد إلى خادم api.met.no التابع للمعهد النرويجي للأرصاد الجوية (MET Norway). يمكنك إيقافها من الإعدادات، وعندها لا يُرسَل أي طلب.<br><br>كما في أي اتصال بالإنترنت، يرى الخادم الذي تتصل به عنوان IP الخاص بك. ولا يرسل نور الوقت إلى هذه الخوادم أي معلومات أخرى عنك.</p>
+<p>تعمل الميزات الأساسية (المواقيت، القبلة، الذكر، الأدعية، سور الصلاة) دون إنترنت. ولا يُستخدم الإنترنت إلا في ستة مواضع:<br><br>• القرآن الكريم: النص العربي مضمَّن في التطبيق ولا يحتاج إلى إنترنت. أما الترجمة والنطق بالحروف اللاتينية فيُنزَّلان من api.alquran.cloud عند فتح السورة أول مرة ويُحفظان على هاتفك، ثم يعملان دون إنترنت. وعند فتح تفسير آية أول مرة يُنزَّل تفسير الجلالين للسورة بالطريقة نفسها من cdn.jsdelivr.net.<br>• إذاعة القرآن: يُشغَّل البث من خوادم mp3quran.net وqurango.net.<br>• المساجد القريبة: يُفتح تطبيق الخرائط في جهازك ويجري البحث فيه.<br>• خطبة الجمعة: تُفتح صفحة رئاسة الشؤون الدينية التركية في المتصفح.<br>• تصحيحات التقويم: لتصحيح الأيام الدينية والتواريخ الهجرية دون تحديث التطبيق، يُنزَّل ملف صغير من خادمنا مرة كل أسبوع. ولا يُرسَل أي شيء، ويمكنك إيقافه من الإعدادات.<br>• حالة الطقس: لعرض التوقعات في الشاشة الرئيسية يُرسَل موقعك مقرَّبًا إلى نحو كيلومتر واحد إلى خادم api.met.no التابع للمعهد النرويجي للأرصاد الجوية (MET Norway). يمكنك إيقافها من الإعدادات، وعندها لا يُرسَل أي طلب.<br><br>كما في أي اتصال بالإنترنت، يرى الخادم الذي تتصل به عنوان IP الخاص بك. ولا يرسل نور الوقت إلى هذه الخوادم أي معلومات أخرى عنك.</p>
 <h3>الإشعارات والأداة</h3>
 <p>تُجهَّز إشعارات الأذان والمواقيت وأداة الشاشة الرئيسية على هاتفك دون أي خادم، لذلك تعمل في وضع الطيران ودون إنترنت.</p>
 <h3>الساعة الذكية</h3>
@@ -181,14 +181,14 @@ footer { padding:24px 20px 46px; color:#8A968F; font-size:13px; }
 <h3>المحتوى الديني</h3>
 <p>جُمعت الأدعية والأحاديث وسائر النصوص من مصادر متداولة، وهي لأغراض التعريف. وفي المسائل التي تحتاج إلى حكم شرعي يرجى الرجوع إلى أهل الاختصاص. وإن لاحظت خطأً فأخبرنا لنصححه.</p>
 <h3>وضع الصلاة</h3>
-<p>يضع هذا الوضع هاتفك مؤقتًا في حالة عدم الإزعاج، فتُكتم المنبهات والمكالمات الواردة أيضًا. لا تستخدمه إن كنت تنتظر مكالمة عاجلة، ولا يتحمل التطبيق مسؤولية أي مكالمات فائتة.</p>
+<p>يحوّل هذا الوضع هاتفك إلى الاهتزاز أثناء الصلاة دون طلب أي إذن. وإذا فعّلت خيار «بلا اهتزاز أيضًا» يُستخدم وضع عدم الإزعاج بإذنك، وقد تُكتم المنبهات والمكالمات الواردة أيضًا. لا تستخدمه إن كنت تنتظر مكالمة عاجلة، ولا يتحمل التطبيق مسؤولية أي مكالمات فائتة.</p>
 <h3>خدمات الأطراف الثالثة</h3>
-<p>يأتي نص القرآن وترجماته من alquran.cloud، وبث إذاعة القرآن من mp3quran.net وqurango.net. وتفتح ميزة المساجد القريبة تطبيق الخرائط في جهازك، وتفتح خطبة الجمعة موقع رئاسة الشؤون الدينية. ومحتوى هذه الخدمات واستمرارها من مسؤولية مزوّديها.</p>
+<p>تأتي ترجمات القرآن من alquran.cloud، وبث إذاعة القرآن من mp3quran.net وqurango.net وradiojar.com. وتفتح ميزة المساجد القريبة تطبيق الخرائط في جهازك، وتفتح خطبة الجمعة موقع رئاسة الشؤون الدينية. ومحتوى هذه الخدمات واستمرارها من مسؤولية مزوّديها.</p>
 <h3>حدود المسؤولية</h3>
 <p>يُقدَّم التطبيق "كما هو"، ولا يتحمل المطوّر مسؤولية أي أضرار غير مباشرة قد تنشأ عن استخدامه.</p>
 <h3>التعديلات</h3>
 <p>قد تُحدَّث هذه الشروط، والنص الحالي متاح دائمًا داخل التطبيق.</p>
-<p class="updated">آخر تحديث: ٣١ أكتوبر ٢٠٢٦ · v1.3.0</p>
+<p class="updated">آخر تحديث: ١٧ نوفمبر ٢٠٢٦ · v1.4.0</p>
 </section>
 </main>
 <footer class="wrap"><p>Nur Vakti · com.nurvakti.nur_vakti</p></footer>
